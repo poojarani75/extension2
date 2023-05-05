@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+.wrapper{
+width: 30opx;
+text-align: center;
+}
+.changecolorbtn{
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: blue;
+    cursor: pointer;
+}

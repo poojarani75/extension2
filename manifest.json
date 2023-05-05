@@ -1,0 +1,35 @@
+{
+    "name":"prachi",
+    "version": "0.0.1",
+    "manifest_version":3,
+   
+      
+      "background": {
+        
+        "service_worker": "background.js"
+      },
+
+      
+      "permissions":
+      [
+        "activeTab",
+        "scripting",
+        "storage",
+        "contextMenus",
+         "all_url"
+        
+        
+        
+      ],
+
+
+      "action": {
+        "default_popup": "popup.html"
+      },
+
+      "icons": {
+        "36": "logo image.png"
+      }
+      
+
+}
